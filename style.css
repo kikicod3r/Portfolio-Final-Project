@@ -99,3 +99,26 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  img {
+    margin-bottom: 20px;
+  }
+  h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .about-paragraphs {
+    text-align: center;
+    max-width: 100%;
+  }
+  .primary-link {
+    text-align: center;
+  }
+  .homepage-image {
+    display: none;
+  }
+}
