@@ -113,10 +113,11 @@ p {
   }
   .about-paragraphs {
     text-align: center;
-    max-width: 100%;
+    overflow: hidden;
   }
-  .primary-link {
-    text-align: center;
+
+  .primary-link-center {
+    margin: 0 auto;
   }
   .homepage-image {
     display: none;
